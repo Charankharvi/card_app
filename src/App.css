@@ -1,0 +1,25 @@
+.App {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    flex-wrap: wrap;
+    background-color: rgba(231, 226, 226, 0.8);
+    text-align: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-body {
+    font-size: 11px;
+}
+
+img.card-img-top {
+    height: 77px;
+    width: 77px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 25px;
+}
